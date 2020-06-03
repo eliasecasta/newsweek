@@ -1,0 +1,59 @@
+/* Links that need red underline  */
+
+.red-underline a {
+  color: black;
+}
+
+.red-underline a:hover {
+  text-decoration-color: red;
+}
+
+.red-underline a:visited {
+  color: black;
+}
+
+/* Links that need hover red colors  */
+
+.red-hover a {
+  color: black;
+  text-decoration: none;
+}
+
+.red-hover a:hover {
+  color: red;
+}
+
+/* .red-hover a:visited {
+  color: black;
+} */
+
+/* Set all the images to container width  */
+
+img {
+  width: 100%;
+}
+
+/* Navbar */
+
+.nav-container {
+  background-color: #f72210;
+}
+
+.left-nav img {
+  width: 70%;
+}
+
+.fa-user {
+  color: lightgray;
+  background-color: red;
+}
+
+.right-nav img {
+  width: 50%;
+  height: 30px;
+  border-radius: 100px;
+}
+
+.fa-align-justify {
+  color: lightgray;
+}
