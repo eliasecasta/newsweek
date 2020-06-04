@@ -1,14 +1,14 @@
 /* Links that need red underline  */
 
-.red-underline a {
+a {
   color: black;
 }
 
-.red-underline a:hover {
+a:hover {
   text-decoration-color: red;
 }
 
-.red-underline a:visited {
+a:visited {
   color: black;
 }
 
@@ -49,11 +49,86 @@ img {
 }
 
 .right-nav img {
-  width: 50%;
-  height: 30px;
+  width: 45%;
+  height: auto;
   border-radius: 100px;
+}
+
+.right-nav i {
+  font-size: 4vw;
 }
 
 .fa-align-justify {
   color: lightgray;
 }
+
+/* The Debate  */
+
+.vs-top {
+  border-top: 4px solid red;
+  padding-top: 10px;
+}
+
+.vs-top img,
+.vs-bottom img {
+  /* width: 70%; */
+  height: 60px;
+  width: 60px;
+}
+
+.vs-top img {
+  margin-right: 12px;
+}
+
+.vs-bottom {
+  border-bottom: 4px solid blue;
+  padding-bottom: 10px;
+}
+
+.opinion-content img {
+  height: 60px;
+  width: 60px;
+  margin-right: 12px;
+}
+
+/* More Stories  */
+
+.more-stories-content {
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+}
+
+.more-stories img {
+  height: 95px;
+  width: 95px;
+  margin-right: 10px;
+}
+
+/* Start Day Mail Input  */
+
+.start-day-container {
+  width: 300px;
+  height: 160px;
+  margin: 0 auto;
+  background-color: #f4f5f6;
+  border: 1px solid lightgray;
+}
+
+.start-day-container img {
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: red;
+}
+
+.start-day-container input {
+  width: 100%;
+}
+
+.start-day-container button {
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+
+In The Magazine
