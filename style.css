@@ -19,6 +19,10 @@ a:visited {
   text-decoration: none;
 }
 
+.magazine-covers h4 a {
+  color: red;
+}
+
 .red-hover a:hover {
   color: red;
 }
@@ -131,4 +135,48 @@ img {
   color: white;
 }
 
-In The Magazine
+/* In The Magazine  */
+
+.magazine-title-container img {
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: red;
+}
+
+.all-features-text:hover {
+  background-color: lightgray;
+}
+
+.all-features a:hover {
+  color: black;
+}
+
+.magazine-covers h4 {
+  font-size: medium;
+}
+
+.magazine-covers h4 span {
+  color: white;
+  background-color: red;
+}
+
+.magazine-covers p {
+  line-height: 1;
+  font-size: 0.9rem;
+}
+
+/* Editors Pick  */
+
+.editors-pick {
+  border-bottom: 1px solid lightgray;
+}
+
+.third-col img {
+  width: 95px;
+  height: 64px;
+}
+
+.third-col h5 {
+  font-size: medium;
+}
