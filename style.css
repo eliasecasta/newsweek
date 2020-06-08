@@ -180,3 +180,60 @@ img {
 .third-col h5 {
   font-size: medium;
 }
+
+/* Footer  */
+
+.footer-container a{
+  color: gray;
+}
+
+.footer-container a:hover{
+  color: black;
+}
+
+.left-items a{
+  color: red;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.left-items a:hover{
+  color: red;
+}
+
+.footer-container ul {
+  padding: 0;
+}
+
+.left-items p {
+  font-size: small;
+}
+
+.right-items i {
+  font-size: 1.5em;
+  color: gray;
+}
+
+.right-items i:hover {
+  color: darkblue;
+}
+
+.footer-editions-container li,
+.footer-sections-container li {
+  list-style: none;
+  /* font-size: x-large; */
+  display: inline;
+  border-right: 1px solid lightgray;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.footer-sections-container li:first-child,
+.footer-sections-container li:nth-child(11) {
+  padding-left: 0;
+}
+
+.footer-editions-container li:last-child,
+.footer-sections-container li:last-child {
+  border-right: none;
+}
