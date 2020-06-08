@@ -105,7 +105,7 @@ img {
 .more-stories img {
   height: 95px;
   width: 95px;
-  margin-right: 10px;
+  margin-right: 1em;
 }
 
 /* Start Day Mail Input  */
@@ -183,21 +183,21 @@ img {
 
 /* Footer  */
 
-.footer-container a{
+.footer-container a {
   color: gray;
 }
 
-.footer-container a:hover{
+.footer-container a:hover {
   color: black;
 }
 
-.left-items a{
+.left-items a {
   color: red;
   font-weight: 700;
   font-size: 1.3em;
 }
 
-.left-items a:hover{
+.left-items a:hover {
   color: red;
 }
 
@@ -236,4 +236,12 @@ img {
 .footer-editions-container li:last-child,
 .footer-sections-container li:last-child {
   border-right: none;
+}
+
+/* Medium Size Selectors  */
+
+.stories-md img {
+  width: 105px;
+  height: 105px;
+  margin-right: 1em;
 }
