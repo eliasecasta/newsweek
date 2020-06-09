@@ -1,18 +1,22 @@
-# The Next Web
+# Newsweek
 
-The goal of this project was to learn about responsive media queries and to apply them to create 3 different web views [The Next Web](https://thenextweb.com/) site.
+The goal of this project was to learn about Bootstrap and to apply it to create 3 different web views to clone the [Newsweek](https://www.newsweek.com/) site.
 
 Small view:
 
-![screenshot](./assets/images/sssmall.png)
+![screenshot](./assets/images/sm.png)
 
 Medium view:
 
-![screenshot](./assets/images/ssmid.png)
+![screenshot](./assets/images/md.png)
 
 Big view:
 
-![screenshot](./assets/images/ssbig.png)
+![screenshot](./assets/images/lg.png)
+
+Extra-Large view:
+
+![screenshot](./assets/images/xl.png)
 
 ## Demo Link
 
