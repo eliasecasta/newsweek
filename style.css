@@ -43,13 +43,30 @@ img {
   background-color: #f72210;
 }
 
+.weather {
+  color: white;
+}
+
+.weather img {
+  width: 55%;
+}
+
 .left-nav img {
   width: 70%;
+}
+
+.big-logo img {
+  width: 120%;
 }
 
 .fa-user {
   color: lightgray;
   background-color: red;
+}
+
+.nav-login {
+  color: white;
+  font-weight: 700;
 }
 
 .right-nav img {
@@ -64,6 +81,42 @@ img {
 
 .fa-align-justify {
   color: lightgray;
+}
+
+/* Second Nav-bar  */
+
+.second-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+}
+
+.second-nav li {
+  /* padding-left: 5px; */
+  /* margin-right: 5px; */
+  /* padding-left: 5px; */
+  /* padding-right: 5px; */
+  font-size: 1rem;
+}
+
+.second-nav li a {
+  border-right: 1px solid lightgray;
+  padding-right: 7px;
+  padding-left: 7px;
+  color: black;
+  font-weight: 700;
+}
+
+.search-bar {
+  width: 60px;
+  /* padding-bottom: 50px; */
+}
+
+.search-bar input {
+  width: 69px;
+  border: none;
+  /* padding-bottom: 50px; */
 }
 
 /* The Debate  */

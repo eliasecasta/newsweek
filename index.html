@@ -25,19 +25,54 @@
     <header class="sticky-top">
       <div class="container-xl nav-container">
         <div class="row pt-2 pb-2">
+          <div class="col weather d-none d-lg-block mt-1">
+            <img src="images/weather_date.png" alt="" />
+            <p>Mon, Jun 08, 2020</p>
+          </div>
           <div class="col left-nav align-self-center">
-            <img src="images/newsweek_logo.png" alt="newsweek_logo" />
+            <img
+              class="d-lg-none"
+              src="images/newsweek_logo.png"
+              alt="newsweek_logo"
+            />
+            <div class="wrapper big-logo">
+              <img
+                class="d-none d-lg-block"
+                src="images/newsweek_logo.png"
+                alt="newsweek_logo"
+              />
+            </div>
           </div>
           <div
             class="col d-flex right-nav align-items-center justify-content-end"
           >
-            <i class="fa fa-user mx-1"></i>
-            <img class="mx-1" src="images/subscribe.png" alt="subscribe" />
-            <i class="fa fa-align-justify mx-1"></i>
+            <i class="fa fa-user mx-1 d-md-none"></i>
+            <h5 class="d-none d-md-block nav-login mt-2">LOGIN</h5>
+            <img class="mx-1 mt-1" src="images/subscribe.png" alt="subscribe" />
+            <i class="fa fa-align-justify mx-1 d-lg-none"></i>
           </div>
         </div>
       </div>
     </header>
+    <div class="second-nav py-3 red-hover">
+      <ul>
+        <li><a href="#">U.S.</a></li>
+        <li><a href="#">World</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Tech & Science</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Newsgeek</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">The Debate</a></li>
+        <li><a href="#">Vantage</a></li>
+        <li><a href="#">Weather</a></li>
+        <li class="search-bar">
+          <input type="search" name="" id="" value="Search" />
+        </li>
+        <li><i class="fa fa-search"></i></li>
+      </ul>
+    </div>
 
     <main class="container-xl">
       <!-- Small view  -->
@@ -1418,7 +1453,7 @@
           </div>
           <div class="col-12 footer-editions-container d-flex">
             <h5>Editions:</h5>
-            <ul class="d-flex justify-content-between">
+            <ul class="justify-content-between">
               <li><a href="#">U.S Edition</a></li>
               <li><a href="#">日本</a></li>
               <li><a href="#">Pakistan</a></li>
