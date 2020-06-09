@@ -3,6 +3,14 @@
   --arial: arial;
 }
 
+body {
+  background-color: #f4f5f6;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
 /* Links that need red underline  */
 
 a {
