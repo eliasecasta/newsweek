@@ -11,6 +11,10 @@ body {
   background-color: white;
 }
 
+.heroes-articles {
+  width: 215px;
+}
+
 /* Links that need red underline  */
 
 a {
