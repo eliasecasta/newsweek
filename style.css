@@ -23,7 +23,7 @@ header,
 }
 
 .heroes-articles {
-  width: 215px;
+  width: 32%;
 }
 
 /* Links that need red underline  */
@@ -57,16 +57,22 @@ a:visited {
   font-size: 1.3em;
 }
 
+.nav-login a {
+  color: white;
+  font-weight: 700;
+}
+
 .magazine-covers h4 a {
   color: red;
 }
 
 .second-nav li a {
   border-right: 1px solid lightgray;
-  padding-right: 7px;
-  padding-left: 7px;
+  padding-right: 12px;
+  padding-left: 12px;
   color: black;
   font-weight: 700;
+  font-size: 0.84em;
 }
 
 .first-half h2 a {
@@ -116,9 +122,11 @@ img {
   background-color: red;
 }
 
-.nav-login {
-  color: white;
+.btn-warning {
   font-weight: 700;
+  background-color: #ffe400;
+  border-radius: 20px;
+  font-size: 0.872rem;
 }
 
 .right-nav img {
@@ -173,6 +181,22 @@ img {
 .first-half p {
   font-family: var(--arial);
   line-height: 1em;
+}
+
+.img-wrapper-heroes {
+  position: relative;
+  display: inline-block;
+}
+
+.heroes-img-text h5 {
+  position: absolute;
+  background-color: #c2d4d7;
+  bottom: 0;
+  font-weight: 600;
+  font-size: medium;
+  left: 0;
+  text-align: center;
+  width: 29%;
 }
 
 /* The Debate  */
@@ -297,6 +321,10 @@ img {
 
 /* Footer  */
 
+.newsletter-email-input {
+  width: 100%;
+}
+
 .sub-gray {
   background-color: #f4f5f6;
 }
@@ -366,8 +394,32 @@ img {
   margin-right: 1em;
 }
 
+@media only screen and (min-width: 768px) {
+  .heroes-img-text h5 {
+    font-weight: 500;
+    font-size: small;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .heroes-img-text h5 {
+    font-weight: 600;
+    font-size: small;
+    width: 60%;
+  }
+}
+
 @media only screen and (min-width: 1440px) {
   .container-fluid {
-    width: 91%;
+    width: 86%;
+  }
+
+  .second-nav li a {
+    font-size: 1.19em;
+  }
+
+  .heroes-img-text h5 {
+    font-size: medium;
   }
 }
