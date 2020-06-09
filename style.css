@@ -1,3 +1,8 @@
+:root {
+  --roboto: "Roboto Condensed", sans-serif;
+  --arial: arial;
+}
+
 /* Links that need red underline  */
 
 a {
@@ -119,6 +124,34 @@ img {
   /* padding-bottom: 50px; */
 }
 
+/* First Half */
+
+.first-half h3,
+.first-half h3 * {
+  color: gray;
+  font-size: small;
+  font-family: var(--roboto);
+}
+
+.first-half h2 {
+  line-height: 0.5em;
+}
+
+.first-half h2 a {
+  font-family: var(--roboto);
+  font-size: 0.7em;
+  font-weight: 700;
+}
+
+.first-half p {
+  font-family: var(--arial);
+  line-height: 1em;
+}
+
+/* .heroes-pandemic a{
+  color: gray;
+} */
+
 /* The Debate  */
 
 .vs-top {
@@ -232,6 +265,20 @@ img {
 
 .third-col h5 {
   font-size: medium;
+}
+
+/* Regions  */
+
+.us-container .col-12 a {
+  color: red;
+}
+
+.us-container h5 a {
+  font-weight: 700;
+}
+
+.us-container h5 a {
+  font-weight: 700;
 }
 
 /* Footer  */
