@@ -4,19 +4,19 @@ The goal of this project was to learn about Bootstrap and to apply it to create 
 
 Small view:
 
-![screenshot](./assets/images/sm.png)
+![screenshot](./images/sm.png)
 
 Medium view:
 
-![screenshot](./assets/images/md.png)
+![screenshot](./images/md.png)
 
 Big view:
 
-![screenshot](./assets/images/lg.png)
+![screenshot](./images/lg.png)
 
 Extra-Large view:
 
-![screenshot](./assets/images/xl.png)
+![screenshot](./images/xl.png)
 
 ## Demo Link
 
