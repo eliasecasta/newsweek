@@ -24,8 +24,36 @@ a:visited {
   text-decoration: none;
 }
 
+.footer-container a {
+  color: gray;
+}
+
+.left-items a {
+  color: red;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
 .magazine-covers h4 a {
   color: red;
+}
+
+.second-nav li a {
+  border-right: 1px solid lightgray;
+  padding-right: 7px;
+  padding-left: 7px;
+  color: black;
+  font-weight: 700;
+}
+
+.first-half h2 a {
+  font-family: var(--roboto);
+  font-size: 0.7em;
+  font-weight: 700;
+}
+
+.us-container h5 a {
+  font-weight: 700;
 }
 
 .red-hover a:hover {
@@ -97,14 +125,6 @@ img {
   font-size: 1rem;
 }
 
-.second-nav li a {
-  border-right: 1px solid lightgray;
-  padding-right: 7px;
-  padding-left: 7px;
-  color: black;
-  font-weight: 700;
-}
-
 .search-bar {
   width: 60px;
 }
@@ -125,12 +145,6 @@ img {
 
 .first-half h2 {
   line-height: 0.5em;
-}
-
-.first-half h2 a {
-  font-family: var(--roboto);
-  font-size: 0.7em;
-  font-weight: 700;
 }
 
 .first-half p {
@@ -258,28 +272,10 @@ img {
   color: red;
 }
 
-.us-container h5 a {
-  font-weight: 700;
-}
-
-.us-container h5 a {
-  font-weight: 700;
-}
-
 /* Footer  */
-
-.footer-container a {
-  color: gray;
-}
 
 .footer-container a:hover {
   color: black;
-}
-
-.left-items a {
-  color: red;
-  font-weight: 700;
-  font-size: 1.3em;
 }
 
 .left-items a:hover {
