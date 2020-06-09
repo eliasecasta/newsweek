@@ -15,7 +15,7 @@ header,
 
 .wrapper {
   position: sticky;
-  top: 11%;
+  top: 16%;
 }
 
 .container-fluid {
@@ -296,6 +296,23 @@ img {
 }
 
 /* Footer  */
+
+.sub-gray {
+  background-color: #f4f5f6;
+}
+
+.newsletter-container {
+  height: 90.5%;
+}
+
+.btn-danger {
+  background-color: red;
+}
+
+.news-image {
+  background: url(images/starting5.png) center no-repeat;
+  background-size: cover;
+}
 
 .footer-container a:hover {
   color: black;
