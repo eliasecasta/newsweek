@@ -4,7 +4,7 @@ The goal of this project was to learn about Bootstrap and to apply it to create 
 
 Small view:
 
-![screenshot](./images/sm.png)
+![screenshot](images\sm.png)
 
 Medium view:
 
