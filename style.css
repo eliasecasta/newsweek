@@ -7,6 +7,17 @@ body {
   background-color: #f4f5f6;
 }
 
+header,
+.nav-container,
+.nav-row {
+  z-index: 999;
+}
+
+.wrapper {
+  position: sticky;
+  top: 11%;
+}
+
 .container-fluid {
   background-color: white;
 }
