@@ -32,10 +32,6 @@ a:visited {
   color: red;
 }
 
-/* .red-hover a:visited {
-  color: black;
-} */
-
 /* Set all the images to container width  */
 
 img {
@@ -98,10 +94,6 @@ img {
 }
 
 .second-nav li {
-  /* padding-left: 5px; */
-  /* margin-right: 5px; */
-  /* padding-left: 5px; */
-  /* padding-right: 5px; */
   font-size: 1rem;
 }
 
@@ -115,13 +107,11 @@ img {
 
 .search-bar {
   width: 60px;
-  /* padding-bottom: 50px; */
 }
 
 .search-bar input {
   width: 69px;
   border: none;
-  /* padding-bottom: 50px; */
 }
 
 /* First Half */
@@ -148,10 +138,6 @@ img {
   line-height: 1em;
 }
 
-/* .heroes-pandemic a{
-  color: gray;
-} */
-
 /* The Debate  */
 
 .vs-top {
@@ -161,7 +147,6 @@ img {
 
 .vs-top img,
 .vs-bottom img {
-  /* width: 70%; */
   height: 60px;
   width: 60px;
 }
@@ -321,7 +306,6 @@ img {
 .footer-editions-container li,
 .footer-sections-container li {
   list-style: none;
-  /* font-size: x-large; */
   display: inline;
   border-right: 1px solid lightgray;
   padding-left: 7px;
