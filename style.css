@@ -3,6 +3,10 @@
   --arial: arial;
 }
 
+.red-font {
+  color: red;
+}
+
 body {
   background-color: #f4f5f6;
 }
@@ -329,6 +333,10 @@ img {
 }
 
 /* Footer  */
+
+.sub-news button {
+  border-radius: 3px;
+}
 
 .newsletter-email-input {
   width: 100%;
