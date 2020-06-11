@@ -192,7 +192,7 @@ img {
   font-size: medium;
   left: 0;
   text-align: center;
-  width: 29%;
+  /* width: 29%; */
 }
 
 .vs-top {
@@ -391,7 +391,7 @@ img {
   .heroes-img-text h5 {
     font-weight: 500;
     font-size: small;
-    width: 70%;
+    /* width: 70%; */
   }
 
   .in-the-magazine .magazine-covers img {
@@ -403,7 +403,7 @@ img {
   .heroes-img-text h5 {
     font-weight: 600;
     font-size: small;
-    width: 60%;
+    /* width: 60%; */
   }
 
   .btn-warning {
