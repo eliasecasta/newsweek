@@ -20,7 +20,7 @@ Extra-Large view:
 
 ## Demo Link
 
-[Live Demo Link](https://raw.githack.com/e71az/newsweek/development/index.html).
+[Live Demo Link](https://e71az.github.io/newsweek/).
 
 ## Built With
 
