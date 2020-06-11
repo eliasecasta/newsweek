@@ -1,0 +1,435 @@
+:root {
+  --roboto: "Roboto Condensed", sans-serif;
+  --arial: arial;
+}
+
+.red-font {
+  color: red;
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+header,
+.nav-container,
+.nav-row {
+  z-index: 999;
+}
+
+.wrapper {
+  position: sticky;
+  top: 80px;
+}
+
+.container-fluid {
+  background-color: white;
+}
+
+.heroes-articles {
+  width: 32%;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration-color: red;
+}
+
+a:visited {
+  color: black;
+}
+
+.red-hover a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-container a {
+  color: gray;
+}
+
+.left-items a {
+  color: red;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.nav-login a {
+  color: white;
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+}
+
+.stories-md img {
+  width: 105px;
+  height: 105px;
+  margin-right: 1em;
+}
+
+.weather img {
+  width: 55%;
+}
+
+.left-nav img {
+  width: 70%;
+}
+
+.big-logo img {
+  width: 100%;
+}
+
+.right-nav img {
+  width: 45%;
+  height: auto;
+  border-radius: 100px;
+}
+
+.vs-top img,
+.vs-bottom img {
+  height: 60px;
+  width: 60px;
+}
+
+.vs-top img {
+  margin-right: 12px;
+}
+
+.opinion-content img {
+  height: 60px;
+  width: 60px;
+  margin-right: 12px;
+}
+
+.more-stories img {
+  height: 95px;
+  width: 95px;
+  margin-right: 1em;
+}
+
+.start-day-container img {
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: red;
+}
+
+.magazine-title-container img {
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: red;
+}
+
+.third-col img {
+  width: 95px;
+  height: 64px;
+}
+
+.in-the-magazine .magazine-covers img {
+  height: 80%;
+}
+
+.magazine-covers h4 a {
+  color: red;
+}
+
+.second-nav li a {
+  border-right: 1px solid lightgray;
+  padding-right: 12px;
+  padding-left: 12px;
+  color: black;
+  font-weight: 700;
+  font-size: 0.84em;
+}
+
+.first-half h2 a {
+  font-family: var(--roboto);
+  font-size: 0.7em;
+  font-weight: 700;
+}
+
+.us-container h5 a {
+  font-weight: 700;
+}
+
+.red-hover a:hover {
+  color: red;
+}
+
+.nav-container {
+  background-color: #f72210;
+}
+
+.weather {
+  color: white;
+}
+
+.fa-user {
+  color: lightgray;
+  background-color: red;
+}
+
+.btn-warning {
+  font-weight: 700;
+  background-color: #ffe400;
+  border-radius: 20px;
+  font-size: 0.6em;
+}
+
+.right-nav i {
+  font-size: 4vw;
+}
+
+.fa-align-justify {
+  color: lightgray;
+}
+
+.second-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+}
+
+.second-nav li {
+  font-size: 1rem;
+}
+
+.search-bar {
+  width: 60px;
+}
+
+.search-bar input {
+  width: 69px;
+  border: none;
+}
+
+.first-half h3,
+.first-half h3 * {
+  color: gray;
+  font-size: small;
+  font-family: var(--roboto);
+}
+
+.first-half h2 {
+  line-height: 0.5em;
+}
+
+.first-half p {
+  font-family: var(--arial);
+  line-height: 1em;
+}
+
+.img-wrapper-heroes {
+  position: relative;
+}
+
+.heroes-img-text h5 {
+  position: absolute;
+  background-color: #c2d4d7;
+  bottom: 0;
+  font-weight: 600;
+  font-size: medium;
+  left: 0;
+  text-align: center;
+}
+
+.vs-top {
+  border-top: 4px solid red;
+  padding-top: 10px;
+}
+
+.vs-bottom {
+  border-bottom: 4px solid blue;
+  padding-bottom: 10px;
+}
+
+.more-stories-content {
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+}
+
+.the-debate p {
+  font-size: small;
+}
+
+.the-debate h5 {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.start-day-container {
+  width: 300px;
+  height: 160px;
+  margin: 0 auto;
+  background-color: #f4f5f6;
+  border: 1px solid lightgray;
+}
+
+.start-day-container input {
+  width: 100%;
+}
+
+.start-day-container button {
+  width: 100%;
+  background-color: red;
+  color: white;
+}
+
+.all-features-text:hover {
+  background-color: lightgray;
+}
+
+.all-features a:hover {
+  color: black;
+}
+
+.magazine-covers h4 {
+  font-size: medium;
+}
+
+.magazine-covers h4 span {
+  color: white;
+  background-color: red;
+}
+
+.magazine-covers p {
+  line-height: 1;
+  font-size: 0.9rem;
+}
+
+.editors-pick {
+  border-bottom: 1px solid lightgray;
+}
+
+.third-col h5 {
+  font-size: medium;
+}
+
+.us-container .col-12 a {
+  color: red;
+}
+
+.sub-news button {
+  border-radius: 3px;
+}
+
+.newsletter-email-input {
+  width: 100%;
+}
+
+.sub-gray {
+  background-color: #f4f5f6;
+}
+
+.newsletter-container {
+  height: 90.5%;
+}
+
+.btn-danger {
+  background-color: red;
+}
+
+.news-image {
+  background: url(images/starting5.png) center no-repeat;
+  background-size: cover;
+}
+
+.footer-container a:hover {
+  color: black;
+}
+
+.left-items a:hover {
+  color: red;
+}
+
+.footer-container ul {
+  padding: 0;
+}
+
+.left-items p {
+  font-size: small;
+}
+
+.right-items i {
+  font-size: 1.5em;
+  color: gray;
+}
+
+.right-items i:hover {
+  color: darkblue;
+}
+
+.footer-editions-container li,
+.footer-sections-container li {
+  list-style: none;
+  display: inline;
+  border-right: 1px solid lightgray;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.footer-sections-container li:first-child,
+.footer-sections-container li:nth-child(11) {
+  padding-left: 0;
+}
+
+.footer-editions-container li:last-child,
+.footer-sections-container li:last-child {
+  border-right: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .heroes-img-text h5 {
+    font-weight: 500;
+    font-size: small;
+  }
+
+  .in-the-magazine .magazine-covers img {
+    height: 50%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .heroes-img-text h5 {
+    font-weight: 600;
+    font-size: small;
+  }
+
+  .btn-warning {
+    font-size: 0.875em;
+  }
+
+  .wrapper {
+    position: sticky;
+    top: 100px;
+  }
+
+  .in-the-magazine .magazine-covers img {
+    height: 60%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container-fluid {
+    width: 86%;
+  }
+
+  .second-nav li a {
+    font-size: 1.1em;
+  }
+
+  .heroes-img-text h5 {
+    font-size: medium;
+  }
+
+  .in-the-magazine .magazine-covers img {
+    height: 70%;
+  }
+}

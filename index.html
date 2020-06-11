@@ -1,0 +1,1858 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      data-auto-replace-svg="nest"
+    ></script>
+    <title>NewsWeek</title>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <div class="container-fluid nav-container">
+        <div class="row pt-2 pb-2">
+          <div class="col weather d-none d-lg-block mt-1">
+            <a href="#"> <img src="images/weather_date.png" alt="" /></a>
+            <p>Mon, Jun 08, 2020</p>
+          </div>
+          <div class="col left-nav align-self-center">
+            <a href="#">
+              <img
+                class="d-lg-none"
+                src="images/newsweek_logo.png"
+                alt="newsweek_logo"
+            /></a>
+            <div class="wrapper big-logo">
+              <a href="#">
+                <img
+                  class="d-none d-lg-block"
+                  src="images/newsweek_logo.png"
+                  alt="newsweek_logo"
+              /></a>
+            </div>
+          </div>
+          <div
+            class="col d-flex right-nav align-items-center justify-content-end"
+          >
+            <i class="fa fa-user mx-1 d-md-none"></i>
+            <h5 class="d-none d-md-block nav-login mt-2">
+              <a href="#"> LOGIN</a>
+            </h5>
+            <button
+              type="submit"
+              class="btn btn-warning mx-3 py-1 px-3 text-nowrap"
+            >
+              SUBSCRIBE >
+            </button>
+            <i class="fa fa-align-justify mx-1 d-lg-none"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid second-nav-container">
+      <div
+        class="second-nav py-3 red-hover border-bottom d-none d-lg-block text-nowrap"
+      >
+        <ul>
+          <li><a href="#">U.S.</a></li>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Tech & Science</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Newsgeek</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">The Debate</a></li>
+          <li><a href="#">Vantage</a></li>
+          <li><a href="#">Weather</a></li>
+          <li class="search-bar">
+            <input type="search" name="search" id="search" value="Search" />
+          </li>
+          <li>
+            <a href=""> <i class="fa fa-search ml-1"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <main class="container-fluid pt-3">
+      <div class="row first-half">
+        <div class="col-12 d-md-none">
+          <div>
+            <h3>TOP STORY</h3>
+            <div class="img-wrapper-heroes">
+              <a href="#">
+                <img
+                  class="mb-2"
+                  src="images/george-floyd.jpg"
+                  alt="Hero of pandemic"
+              /></a>
+              <div class="heroes-img-text">
+                <h5 class="px-2 pb-1">POLITICS</h5>
+              </div>
+            </div>
+            <h2>
+              <a href="#">
+                3 Officers Charged in George Floyd's Death Hours After Calls for
+                Arrest</a
+              >
+            </h2>
+            <p>
+              As riots continued across the country, George Floyd's family
+              reignited calls for people to be peaceful and use their anger to
+              fuel true change.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-5 col-lg-3 order-md-0 featured-stories">
+          <div class="wrapper">
+            <h3>FEATURED STORIES</h3>
+
+            <div class="mb-4">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/protests.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">POLITICS</h5>
+                </div>
+              </div>
+              <h2 class="my-2">
+                <a href="#">
+                  Will Facebook Restrict George Floyd Protest Information?</a
+                >
+              </h2>
+              <p>
+                In April, the social network removed event listings of
+                anti-quarantine protests. With much larger demonstrations now
+                taking place nationwide, will its enforcement policies be the
+                same?
+              </p>
+            </div>
+            <div class="mb-4">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/protests.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">POLITICS</h5>
+                </div>
+              </div>
+              <h2 class="my-2">
+                <a href="#">
+                  Will Facebook Restrict George Floyd Protest Information?</a
+                >
+              </h2>
+              <p>
+                In April, the social network removed event listings of
+                anti-quarantine protests. With much larger demonstrations now
+                taking place nationwide, will its enforcement policies be the
+                same?
+              </p>
+            </div>
+
+            <div class="mb-4">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/protests.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">POLITICS</h5>
+                </div>
+              </div>
+              <h2 class="my-2">
+                <a href="#">
+                  Will Facebook Restrict George Floyd Protest Information?</a
+                >
+              </h2>
+              <p>
+                In April, the social network removed event listings of
+                anti-quarantine protests. With much larger demonstrations now
+                taking place nationwide, will its enforcement policies be the
+                same?
+              </p>
+            </div>
+            <div class="mb-4">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/protests.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">POLITICS</h5>
+                </div>
+              </div>
+              <h2 class="my-2">
+                <a href="#">
+                  Will Facebook Restrict George Floyd Protest Information?</a
+                >
+              </h2>
+              <p>
+                In April, the social network removed event listings of
+                anti-quarantine protests. With much larger demonstrations now
+                taking place nationwide, will its enforcement policies be the
+                same?
+              </p>
+            </div>
+            <div class="mb-4">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/protests.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">POLITICS</h5>
+                </div>
+              </div>
+              <h2 class="my-2">
+                <a href="#">
+                  Will Facebook Restrict George Floyd Protest Information?</a
+                >
+              </h2>
+              <p>
+                In April, the social network removed event listings of
+                anti-quarantine protests. With much larger demonstrations now
+                taking place nationwide, will its enforcement policies be the
+                same?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-3 order-md-last the-debate red-hover">
+          <div class="wrapper">
+            <h3>
+              <a href="#"> THE DEBATE</a>
+            </h3>
+            <div class="vs-top d-flex">
+              <a href="#">
+                <img src="images/debate.png" alt="marianne williamson"
+              /></a>
+              <div>
+                <p class="font-weight-bold">
+                  <a href="#"> Respond to Coronavirus With More Nationalism</a>
+                </p>
+
+                <p>BY <a class="font-weight-bold" href="#"> NIGEL FARAGE</a></p>
+              </div>
+            </div>
+            <img src="images/vs-small.png" alt="" />
+
+            <div class="vs-bottom d-flex justify-content-between">
+              <div>
+                <p class="font-weight-bold">
+                  <a href="#">Respond to Coronavirus With More Globalism</a>
+                </p>
+                <p>
+                  BY<a class="font-weight-bold" href="#">
+                    MARIANNE WILLIAMSON</a
+                  >
+                </p>
+              </div>
+              <div>
+                <img
+                  class=""
+                  src="images/debate.png"
+                  alt="marianne williamson"
+                />
+              </div>
+            </div>
+
+            <div class="row opinion-title">
+              <div class="col py-2">
+                <h3>
+                  <a href="#"> OPINION</a>
+                </h3>
+              </div>
+            </div>
+            <div class="row opinion-content">
+              <div class="col d-flex">
+                <a href="#">
+                  <img src="images/opinion.png" alt="marianne williamson"
+                /></a>
+                <div>
+                  <h5>
+                    <a href="#">
+                      I Was Arrested for Same as George Floyd. I Lived. That's
+                      White Privilege</a
+                    >
+                  </h5>
+
+                  <p>BY <a href="#"> NIGEL FARAGE</a></p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row opinion-content">
+              <div class="col d-flex">
+                <a href="#">
+                  <img src="images/opinion.png" alt="marianne williamson"
+                /></a>
+                <div>
+                  <h5>
+                    <a href="#">
+                      I Was Arrested for Same as George Floyd. I Lived. That's
+                      White Privilege</a
+                    >
+                  </h5>
+
+                  <p>BY <a href="#"> NIGEL FARAGE</a></p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row opinion-content">
+              <div class="col d-flex">
+                <a href="#">
+                  <img src="images/opinion.png" alt="marianne williamson"
+                /></a>
+                <div>
+                  <h5>
+                    <a href="#">
+                      I Was Arrested for Same as George Floyd. I Lived. That's
+                      White Privilege</a
+                    >
+                  </h5>
+
+                  <p>BY <a href="#"> NIGEL FARAGE</a></p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row opinion-content">
+              <div class="col d-flex">
+                <a href="#">
+                  <img src="images/opinion.png" alt="marianne williamson"
+                /></a>
+                <div>
+                  <h5>
+                    <a href="#">
+                      I Was Arrested for Same as George Floyd. I Lived. That's
+                      White Privilege</a
+                    >
+                  </h5>
+
+                  <p>BY <a href="#"> NIGEL FARAGE</a></p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row opinion-content">
+              <div class="col d-flex">
+                <a href="#">
+                  <img src="images/opinion.png" alt="marianne williamson"
+                /></a>
+                <div>
+                  <h5>
+                    <a href="#">
+                      I Was Arrested for Same as George Floyd. I Lived. That's
+                      White Privilege</a
+                    >
+                  </h5>
+
+                  <p>BY <a href="#"> NIGEL FARAGE</a></p>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="row opinion-content">
+              <div class="col d-flex">
+                <a href="#">
+                  <img src="images/opinion.png" alt="marianne williamson"
+                /></a>
+                <div>
+                  <h5>
+                    <a href="#">
+                      I Was Arrested for Same as George Floyd. I Lived. That's
+                      White Privilege</a
+                    >
+                  </h5>
+
+                  <p>BY <a href="#"> NIGEL FARAGE</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col d-none d-lg-block start-day-container pt-3">
+              <div class="d-flex">
+                <img
+                  class="mr-2 mt-1"
+                  src="images/logo-n1.svg"
+                  alt="NewsWeek Logo"
+                />
+                <h6>START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
+              </div>
+              <input
+                class="my-1"
+                type="email"
+                name="email-start-day"
+                id="email-start-day"
+                value="Email address"
+              />
+              <button type="button" class="btn mt-1">FREE SIGN UP ></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 order-md-4 more-stories d-md-none">
+          <h3>
+            MORE STORIES
+          </h3>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex more-stories-content">
+            <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+            <div>
+              <h5>
+                <a href="#">
+                  Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                  Floyd</a
+                >
+              </h5>
+              <p>
+                The lights at Dodger Stadium were shone into the sky for 8
+                minutes and 46 seconds, the time Minneapolis Police Department
+                officer Derek Chauvin knelt on Floyd's neck.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 heroes-pandemic d-md-none">
+          <h3><a href="#"> HEROES OF THE PANDEMIC</a></h3>
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/hero.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1">George Floyd</h5>
+            </div>
+          </div>
+          <p class="mb-3">
+            <a href="#"
+              >The Doctors and Nurses Crossing the Border Daily to Help Asylum
+              Seekers</a
+            >
+          </p>
+
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/hero.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1">George Floyd</h5>
+            </div>
+          </div>
+          <p class="mb-3">
+            <a href="#"
+              >The Doctors and Nurses Crossing the Border Daily to Help Asylum
+              Seekers</a
+            >
+          </p>
+
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/hero.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1">George Floyd</h5>
+            </div>
+          </div>
+          <p class="mb-3">
+            <a href="#"
+              >The Doctors and Nurses Crossing the Border Daily to Help Asylum
+              Seekers</a
+            >
+          </p>
+          <h3><a href="#"> CULTURE & TRAVEL</a></h3>
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img
+                class="mb-2"
+                src="images/cant-breath.jpg"
+                alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1">George Floyd</h5>
+            </div>
+          </div>
+          <p class="mb-3">
+            <a href="#"
+              >Artists on the Internet are Honoring George Floyd With Striking
+              Portraits</a
+            >
+          </p>
+
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img
+                class="mb-2"
+                src="images/cant-breath.jpg"
+                alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1">George Floyd</h5>
+            </div>
+          </div>
+          <p class="mb-3">
+            <a href="#"
+              >Artists on the Internet are Honoring George Floyd With Striking
+              Portraits</a
+            >
+          </p>
+
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img
+                class="mb-2"
+                src="images/cant-breath.jpg"
+                alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1">George Floyd</h5>
+            </div>
+          </div>
+          <p class="mb-3">
+            <a href="#"
+              >Artists on the Internet are Honoring George Floyd With Striking
+              Portraits</a
+            >
+          </p>
+        </div>
+
+        <div
+          class="col-12 col-md-7 col-lg-6 order-md-1 heroes-pandemic d-none d-md-block"
+        >
+          <h3>TOP STORY</h3>
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img
+                class="mb-2"
+                src="images/george-floyd.jpg"
+                alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1">POLITICS</h5>
+            </div>
+          </div>
+          <h2>
+            <a href="#">
+              3 Officers Charged in George Floyd's Death Hours After Calls for
+              Arrest</a
+            >
+          </h2>
+          <p>
+            As riots continued across the country, George Floyd's family
+            reignited calls for people to be peaceful and use their anger to
+            fuel true change.
+          </p>
+
+          <h3><a href="#"> HEROES OF THE PANDEMIC</a></h3>
+          <div class="d-md-flex justify-content-between">
+            <div class="heroes-articles">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/hero.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">George Floyd</h5>
+                </div>
+              </div>
+
+              <p class="mb-3">
+                <a href="#"
+                  >The Doctors and Nurses Crossing the Border Daily to Help
+                  Asylum Seekers</a
+                >
+              </p>
+            </div>
+
+            <div class="heroes-articles">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/hero.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">George Floyd</h5>
+                </div>
+              </div>
+              <p class="mb-3">
+                <a href="#"
+                  >The Doctors and Nurses Crossing the Border Daily to Help
+                  Asylum Seekers</a
+                >
+              </p>
+            </div>
+
+            <div class="heroes-articles">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/hero.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">George Floyd</h5>
+                </div>
+              </div>
+              <p class="mb-3">
+                <a href="#"
+                  >The Doctors and Nurses Crossing the Border Daily to Help
+                  Asylum Seekers</a
+                >
+              </p>
+            </div>
+          </div>
+          <h3><a href="#"> CULTURE & TRAVEL</a></h3>
+          <div class="d-flex justify-content-between">
+            <div class="heroes-articles">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/cant-breath.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">George Floyd</h5>
+                </div>
+              </div>
+              <p class="mb-3">
+                <a href="#"
+                  >Artists on the Internet are Honoring George Floyd With
+                  Striking Portraits</a
+                >
+              </p>
+            </div>
+
+            <div class="heroes-articles">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/cant-breath.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">George Floyd</h5>
+                </div>
+              </div>
+              <p class="mb-3">
+                <a href="#"
+                  >Artists on the Internet are Honoring George Floyd With
+                  Striking Portraits</a
+                >
+              </p>
+            </div>
+
+            <div class="heroes-articles">
+              <div class="img-wrapper-heroes">
+                <a href="#">
+                  <img
+                    class="mb-2"
+                    src="images/cant-breath.jpg"
+                    alt="Hero of pandemic"
+                /></a>
+                <div class="heroes-img-text">
+                  <h5 class="px-2 pb-1">George Floyd</h5>
+                </div>
+              </div>
+              <p class="mb-3">
+                <a href="#"
+                  >Artists on the Internet are Honoring George Floyd With
+                  Striking Portraits</a
+                >
+              </p>
+            </div>
+          </div>
+          <div>
+            <h3>
+              MORE STORIES
+            </h3>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex more-stories-content stories-md">
+              <a href="#"> <img src="images/stadium.jpg" alt="Stadium" /></a>
+              <div>
+                <h5>
+                  <a href="#">
+                    Los Angeles Dodgers Lit Up Their Stadium to Honor George
+                    Floyd</a
+                  >
+                </h5>
+                <p>
+                  The lights at Dodger Stadium were shone into the sky for 8
+                  minutes and 46 seconds, the time Minneapolis Police Department
+                  officer Derek Chauvin knelt on Floyd's neck.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col d-lg-none start-day-container pt-3">
+        <div class="d-flex">
+          <img class="mr-2 mt-1" src="images/logo-n1.svg" alt="NewsWeek Logo" />
+          <h6>START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
+        </div>
+        <input
+          class="my-1"
+          type="email"
+          name="email-start-day"
+          id="email-start-day-2"
+          value="Email address"
+        />
+        <button type="button" class="btn mt-1">FREE SIGN UP ></button>
+      </div>
+
+      <div class="row in-the-magazine my-5">
+        <div
+          class="col-12 d-flex justify-content-center magazine-title-container mb-5 pb-2 border-bottom"
+        >
+          <img class="mr-2" src="images/logo-n1.svg" alt="NewsWeek Logo" />
+          <h5>IN THE MAGAZINE</h5>
+        </div>
+        <div class="col-12 col-md-3 red-hover all-features mb-lg-4">
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img
+                class="mb-2"
+                src="images/pandemic-toll.jpg"
+                alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1 text-danger">JUNE 11 ISSUE</h5>
+            </div>
+          </div>
+          <h5 class="all-features-text text-center my-3">
+            <a href="#"> SEE ALL FEATURES ></a>
+          </h5>
+        </div>
+        <div class="col-12 col-md-3 magazine-covers">
+          <a href="#">
+            <img src="images/pandemic-toll.jpg" alt="pandemic toll"
+          /></a>
+          <h4 class="mt-3 red-hover font-weight-bold">
+            <span class="px-2 pb-1 bg">COVER</span><a href="#"> POLITICS</a>
+          </h4>
+          <p class="font-weight-bold si">
+            <a href="#">
+              Biden, the Moderate, Plans the Most Radical Economic Overhaul
+              Since FDR</a
+            >
+          </p>
+        </div>
+        <div class="col-12 col-md-3 magazine-covers mb-1">
+          <a href="#">
+            <img src="images/pandemic-toll.jpg" alt="pandemic toll"
+          /></a>
+          <h4 class="mt-3 red-hover font-weight-bold">
+            <span class="px-2 pb-1 bg">COVER</span><a href="#"> POLITICS</a>
+          </h4>
+          <p class="font-weight-bold si">
+            <a href="#">
+              Biden, the Moderate, Plans the Most Radical Economic Overhaul
+              Since FDR</a
+            >
+          </p>
+        </div>
+        <div class="col-12 col-md-3 magazine-covers mb-1">
+          <a href="#">
+            <img src="images/pandemic-toll.jpg" alt="pandemic toll"
+          /></a>
+          <h4 class="mt-3 red-hover font-weight-bold">
+            <span class="px-2 pb-1 bg">COVER</span><a href="#"> POLITICS</a>
+          </h4>
+          <p class="font-weight-bold si">
+            <a href="#">
+              Biden, the Moderate, Plans the Most Radical Economic Overhaul
+              Since FDR</a
+            >
+          </p>
+        </div>
+        <div class="col-12 col-md-3 magazine-covers mb-1">
+          <a href="#">
+            <img src="images/pandemic-toll.jpg" alt="pandemic toll"
+          /></a>
+          <h4 class="mt-3 red-hover font-weight-bold">
+            <span class="px-2 pb-1 bg">COVER</span><a href="#"> POLITICS</a>
+          </h4>
+          <p class="font-weight-bold si">
+            <a href="#">
+              Biden, the Moderate, Plans the Most Radical Economic Overhaul
+              Since FDR</a
+            >
+          </p>
+        </div>
+        <div class="col-12 col-md-3 magazine-covers mb-1">
+          <a href="#">
+            <img src="images/pandemic-toll.jpg" alt="pandemic toll"
+          /></a>
+          <h4 class="mt-3 red-hover font-weight-bold">
+            <span class="px-2 pb-1 bg">COVER</span><a href="#"> POLITICS</a>
+          </h4>
+          <p class="font-weight-bold si">
+            <a href="#">
+              Biden, the Moderate, Plans the Most Radical Economic Overhaul
+              Since FDR</a
+            >
+          </p>
+        </div>
+        <div class="col-12 col-md-3 magazine-covers mb-1">
+          <a href="#">
+            <img src="images/pandemic-toll.jpg" alt="pandemic toll"
+          /></a>
+          <h4 class="mt-3 red-hover font-weight-bold">
+            <span class="px-2 pb-1 bg">COVER</span><a href="#"> POLITICS</a>
+          </h4>
+          <p class="font-weight-bold si">
+            <a href="#">
+              Biden, the Moderate, Plans the Most Radical Economic Overhaul
+              Since FDR</a
+            >
+          </p>
+        </div>
+        <div class="col-12 col-md-3 magazine-covers mb-1">
+          <a href="#">
+            <img src="images/pandemic-toll.jpg" alt="pandemic toll"
+          /></a>
+          <h4 class="mt-3 red-hover font-weight-bold">
+            <span class="px-2 pb-1 bg">COVER</span><a href="#"> POLITICS</a>
+          </h4>
+          <p class="font-weight-bold si">
+            <a href="#">
+              Biden, the Moderate, Plans the Most Radical Economic Overhaul
+              Since FDR</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="row editors-pick my-4 pb-lg-4">
+        <div
+          class="col-12 d-flex justify-content-center magazine-title-container pb-2 mb-3 border-bottom"
+        >
+          <img class="mr-2" src="images/logo-n1.svg" alt="NewsWeek Logo" />
+          <h5>EDITOR'S PICK</h5>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 magazine-covers mb-1">
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/meghan.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1 text-danger">POLITICS</h5>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#"
+              >Meghan Markle's Racism Speech 'Impossible' Inside Royal Family,
+              Expert says
+            </a>
+          </h5>
+          <p class="lead">
+            The Duchess of Sussex could not have spoken out against the
+            "senseless act of racism" behind George Floyd's death if she was
+            still a senior royal, an expert tells Newsweek.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 magazine-covers mb-1">
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/meghan.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1 text-danger">POLITICS</h5>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#"
+              >Meghan Markle's Racism Speech 'Impossible' Inside Royal Family,
+              Expert says
+            </a>
+          </h5>
+          <p class="lead">
+            The Duchess of Sussex could not have spoken out against the
+            "senseless act of racism" behind George Floyd's death if she was
+            still a senior royal, an expert tells Newsweek.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 magazine-covers mb-1">
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/meghan.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1 text-danger">POLITICS</h5>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#"
+              >Meghan Markle's Racism Speech 'Impossible' Inside Royal Family,
+              Expert says
+            </a>
+          </h5>
+          <p class="lead">
+            The Duchess of Sussex could not have spoken out against the
+            "senseless act of racism" behind George Floyd's death if she was
+            still a senior royal, an expert tells Newsweek.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 magazine-covers mb-1">
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/meghan.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1 text-danger">POLITICS</h5>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#"
+              >Meghan Markle's Racism Speech 'Impossible' Inside Royal Family,
+              Expert says
+            </a>
+          </h5>
+          <p class="lead">
+            The Duchess of Sussex could not have spoken out against the
+            "senseless act of racism" behind George Floyd's death if she was
+            still a senior royal, an expert tells Newsweek.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 magazine-covers mb-1">
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/meghan.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1 text-danger">POLITICS</h5>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#"
+              >Meghan Markle's Racism Speech 'Impossible' Inside Royal Family,
+              Expert says
+            </a>
+          </h5>
+          <p class="lead">
+            The Duchess of Sussex could not have spoken out against the
+            "senseless act of racism" behind George Floyd's death if she was
+            still a senior royal, an expert tells Newsweek.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 magazine-covers mb-1">
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/meghan.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1 text-danger">POLITICS</h5>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#"
+              >Meghan Markle's Racism Speech 'Impossible' Inside Royal Family,
+              Expert says
+            </a>
+          </h5>
+          <p class="lead">
+            The Duchess of Sussex could not have spoken out against the
+            "senseless act of racism" behind George Floyd's death if she was
+            still a senior royal, an expert tells Newsweek.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 magazine-covers mb-1">
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/meghan.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1 text-danger">POLITICS</h5>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#"
+              >Meghan Markle's Racism Speech 'Impossible' Inside Royal Family,
+              Expert says
+            </a>
+          </h5>
+          <p class="lead">
+            The Duchess of Sussex could not have spoken out against the
+            "senseless act of racism" behind George Floyd's death if she was
+            still a senior royal, an expert tells Newsweek.
+          </p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 magazine-covers mb-1">
+          <div class="img-wrapper-heroes">
+            <a href="#">
+              <img class="mb-2" src="images/meghan.jpg" alt="Hero of pandemic"
+            /></a>
+            <div class="heroes-img-text">
+              <h5 class="px-2 pb-1 text-danger">POLITICS</h5>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#"
+              >Meghan Markle's Racism Speech 'Impossible' Inside Royal Family,
+              Expert says
+            </a>
+          </h5>
+          <p class="lead">
+            The Duchess of Sussex could not have spoken out against the
+            "senseless act of racism" behind George Floyd's death if she was
+            still a senior royal, an expert tells Newsweek.
+          </p>
+        </div>
+      </div>
+
+      <div class="row us-container">
+        <div class="col-12">
+          <h5><a href="#"> U.S.</a></h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4 third-col red-hover">
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 border-top my-2 py-2">
+          <h5><a href="#"> U.S.</a></h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4 third-col red-hover">
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 border-top my-2 py-2">
+          <h5><a href="#"> U.S.</a></h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4 third-col red-hover">
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 border-top my-2 py-2">
+          <h5><a href="#"> U.S.</a></h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4 third-col red-hover">
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 border-top my-2 py-2">
+          <h5><a href="#"> U.S.</a></h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4 third-col red-hover">
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 border-top my-2 py-2">
+          <h5><a href="#"> U.S.</a></h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4">
+          <a href="#"> <img src="images/pandemic-toll-crop.jpg" alt="" /></a>
+          <h5>
+            <a href="#">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex,
+              dolorem.
+            </a>
+          </h5>
+        </div>
+        <div class="col-md-4 third-col red-hover">
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex ml-2 mb-4">
+              <a href="#">
+                <img class="mr-3" src="images/third-column.jpg" alt="" />
+              </a>
+              <h5>
+                <a href="#">
+                  Donald Trump Calls on Iran to 'Make the Big Deal' Before 2020
+                  Election
+                </a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container-fluid footer-container red-hover">
+        <div class="row py-4 sub-news">
+          <div class="col-12 col-lg-8">
+            <div class="col-12">
+              <h5 class="red-font">SUBSCRIBE</h5>
+            </div>
+            <div class="d-flex sub-gray py-4">
+              <div class="col-4">
+                <img src="images/sub-footer.png" alt="subscribe" />
+              </div>
+              <div class="col-8 align-self-center">
+                <h4 class="font-weight-bold">
+                  In-depth Stories You Don't See Elsewhere About Topics You Want
+                  to Read!
+                </h4>
+                <p>
+                  All Access + Weekly Delivery. Choose A Membership That's
+                  Perfect for You!
+                </p>
+                <button type="button" class="btn btn-danger font-weight-bold">
+                  SUBSCRIBE >
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="col-12 mr-3">
+              <h5 class="red-font">NEWSLETTER</h5>
+            </div>
+            <div class="d-flex newsletter-container">
+              <div class="col-5 ml-3 news-image"></div>
+              <div class="col-7 align-self-center">
+                <h5 class="font-weight-bold">The Starting 5</h5>
+                <p class="mb-3">
+                  See why nearly a quarter of a million subscribers begin their
+                  day with the Starting 5.
+                </p>
+                <input
+                  class="newsletter-email-input"
+                  type="email"
+                  name="email"
+                  id="email3"
+                  value="Email address"
+                />
+
+                <button
+                  type="button"
+                  class="btn btn-danger mt-2 font-weight-bold"
+                >
+                  FREE SIGN UP >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div
+            class="col-12 footer-icons-container border-bottom d-md-flex justify-content-between mb-2 pb-1"
+          >
+            <div class="left-items d-md-flex">
+              <h2><a href="#">Newsweek</a></h2>
+              <p class="d-flex align-self-end ml-md-3 pt-3">© 2020 NEWSWEEK</p>
+            </div>
+            <div class="right-items pt-md-2">
+              <a href="#"> <i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-tumblr"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="col-12 footer-editions-container d-flex">
+            <h5>Editions:</h5>
+            <ul class="justify-content-between">
+              <li><a href="#">U.S Edition</a></li>
+              <li><a href="#">日本</a></li>
+              <li><a href="#">Pakistan</a></li>
+              <li><a href="#">Polska</a></li>
+              <li><a href="#">România</a></li>
+            </ul>
+          </div>
+          <div class="col-12 footer-sections-container">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Corrections</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Editorial Guidelines</a></li>
+              <li><a href="#">Advertise</a></li>
+              <li><a href="#">Copyright</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Terms of Sale</a></li>
+              <li><a href="#">Archive</a></li>
+              <li><a href="#">Announcements</a></li>
+              <li><a href="#">Consent preferences</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
