@@ -62,8 +62,8 @@ a:visited {
   font-weight: 700;
 }
 
-.magazine-covers img {
-  height: 50%;
+.in-the-magazine .magazine-covers img {
+  height: 80%;
 }
 
 .magazine-covers h4 a {
@@ -393,6 +393,10 @@ img {
     font-size: small;
     width: 70%;
   }
+
+  .in-the-magazine .magazine-covers img {
+    height: 50%;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -411,7 +415,7 @@ img {
     top: 100px;
   }
 
-  .magazine-covers img {
+  .in-the-magazine .magazine-covers img {
     height: 60%;
   }
 }
@@ -429,7 +433,7 @@ img {
     font-size: medium;
   }
 
-  .magazine-covers img {
+  .in-the-magazine .magazine-covers img {
     height: 70%;
   }
 }
